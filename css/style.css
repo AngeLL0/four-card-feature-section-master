@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    color: hsl(234, 12%, 34%);
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+h1 { 
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    padding: 2%;
+}
+
+.header-container {
+    height: 30%;
+    width: 38%;
+    margin: 70px auto 70px auto;
+}
+
+.body-container {
+    position: relative;
+}
+
+.power-h1 {
+    font-size: 1.8rem;
+}
+
+.reliable-h1 {
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+.supervisor {
+    border-radius: 4%;
+    box-shadow: 2px 8px 15px 3px hsla(219, 75%, 68%, 0.219);
+    position: absolute;
+    width: 25%;
+    left: 130px;
+    bottom: 150px;
+    padding-bottom: 3%;
+}
+
+.builder {    
+    position: relative;
+    border-radius: 4%;
+    box-shadow: 2px 8px 15px 3px hsla(219, 75%, 68%, 0.219);
+    width: 25%;
+    margin: 0 auto 0 auto;
+    top: 10px;
+    padding-bottom: 3%;
+ }   
+
+.karma {
+    border-radius: 4%;
+    box-shadow: 2px 8px 15px 3px hsla(219, 75%, 68%, 0.219);
+    position: relative;
+    width: 25%;
+    margin: 100px auto 40px auto;
+    padding-bottom: 3%;
+}
+.calculator {
+    border-radius: 4%;
+    box-shadow: 2px 8px 15px 3px hsla(219, 75%, 68%, 0.219);
+    position: absolute;
+    width: 25%;
+    bottom: 150px;
+    right: 130px;
+    padding-bottom: 3%;
+
+}
+
+.karma-orange {
+    border-top: 5px solid  hsl(34, 97%, 64%);
+    border-radius: 2%;
+}
+
+.supervisor-cyan{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    border-radius: 2%;
+
+}
+
+.team-builder-red {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    border-radius: 2%;
+}
+
+.calculator-blue {
+border-top: 5px solid hsl(212, 86%, 64%);
+border-radius: 2%;
+}
+
+/*###############################IMG SECTION#######################*/
+.supervisor-img {
+    position: relative;
+    left: 100px;
+    
+}
+
+.calculator-img {
+    position: relative;
+    left: 100px;    
+}
+
+.builder-img {
+    position: relative;
+    left: 100px;  
+}
+
+.karma-img {
+    position: relative;
+    left: 100px;
+}
